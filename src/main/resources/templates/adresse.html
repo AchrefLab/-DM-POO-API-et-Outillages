@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns: th="http://www.thymeleaf.org">
+	<head>
+		<title>adresse</title>
+		<meta http-equiv="Content-Type"  content="text/html; charset=UTF-8"/>
+	</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css">
+	
+	<body>
+		<div th:replace="~{fragments/navbar :: navbar}"></div>
+		<div class="jumbotron"  style="margin: 50px">
+			<h1 class="display-4" style="text-align: center">Donnez votre adresse</h1>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-6">
+				<form action="#" th:action="@{/meteo}"  th:object="${adresse}" method="post">
+				  <div class="mb-3">
+				    <label for="Adresse" class="form-label">Donnez votre adresse</label>
+				    <input type="text" class="form-control" id="Adresse" th:field="*{adresse}">
+				  </div>
+				  <div class="mb-3">
+				    <label for="codepostal" class="form-label">Donnez votre code postal</label>
+				    <input type="text" class="form-control" id="codepostal" th:field="*{codePostal}" >
+				  </div> 
+				  <button type="submit" value="valider" name="valider" class="btn btn-primary btn-lg btn-block" style="margin-top: 50px" >Valider</button>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.esm.min.js" integrity="sha384-Eg5XYZrb+x0FMnsSAcaUNc6vJ/6B47jQvyhan3IGKcCfko9Hq6vS3s1PviSpNbdE" crossorigin="anonymous"></script>
+	
+</html>

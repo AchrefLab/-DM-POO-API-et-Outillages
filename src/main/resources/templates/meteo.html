@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html xmlns: th="http://www.thymeleaf.org">
+	<head>
+		<title>addresses</title>
+		<meta http-equiv="Content-Type"  content="text/html; charset=UTF-8"/>
+	</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css">
+	
+	<body>
+		<div th:replace="~{fragments/navbar :: navbar}"></div>
+		<div class="jumbotron"  style="margin: 50px">
+			<h1 class="display-4" style="text-align: center">Meteo</h1>
+		</div>
+		<div style="margin: 50px">
+			<table class="table table-hover">
+				<thead>
+				    <tr>
+				      <th scope="col">Parametre</th>
+				      <th scope="col">Valeur</th>
+				    </tr>
+				</thead>
+				<tbody>
+					<tr class="table-secondary">
+						<th scope="row">Adresse</th>
+						<td th:text=" ${adresse} "></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">Code postal</th>
+						<td th:text="${codepostal}"></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">Ville</th>
+						<td th:text="${city}"></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">Latitude</th>
+						<td th:text="${lat}"></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">Longitude</th>
+						<td th:text="${lon}"></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">X</th>
+						<td th:text="${x}"></td>
+					</tr>
+					<tr class="table-dark">
+						<th scope="row">Y</th>
+						<td th:text="${y}"></td>
+					</tr>
+					<tr class="table-info">
+						<th scope="row">Meteo</th>
+						<td th:text="${description}"></td>
+					</tr>
+					<tr class="table-info">
+						<th scope="row">Temperature</th>
+						<td th:text="${temperature}"></td>
+					</tr>
+					<tr class="table-info">
+						<th scope="row">Temperature ressentie</th>
+						<td th:text="${feelslike}"></td>
+					</tr>
+					<tr class="table-info">
+						<th scope="row">Humidite</th>
+						<td th:text="${humidite}"></td>
+					</tr>
+					<tr class="table-info">
+						<th scope="row">Pression</th>
+						<td th:text="${pressure}"></td>
+					</tr>
+	       		</tbody>
+	     	</table>
+	     </div>
+	</body>
+	
+	
+</html>

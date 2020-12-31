@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary" th:fragment="navbar">
+		  <div class="collapse navbar-collapse" id="navbarColor01">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" th:href="@{/greeting}">Bienvenue
+		          <span class="sr-only">(current)</span>
+		        </a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" th:href="@{/adresses}">Adresses</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" th:href="@{/adresse}">Meteo</a>
+		      </li>
+		    </ul>
+		</nav>
+</body>
+</html>

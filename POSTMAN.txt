@@ -1,0 +1,138 @@
+{
+    "type": "FeatureCollection",
+    "version": "draft",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.193278,
+                    48.003107
+                ]
+            },
+            "properties": {
+                "label": "26 Rue Barbier 72000 Le Mans",
+                "score": 0.8847418181818182,
+                "housenumber": "26",
+                "id": "72181_0470_00026",
+                "name": "26 Rue Barbier",
+                "postcode": "72000",
+                "citycode": "72181",
+                "x": 490732.17,
+                "y": 6770688.55,
+                "city": "Le Mans",
+                "context": "72, Sarthe, Pays de la Loire",
+                "type": "housenumber",
+                "importance": 0.73216,
+                "street": "Rue Barbier"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.00007,
+                    43.578483
+                ]
+            },
+            "properties": {
+                "label": "26 Rue Barbier Jauffret 13140 Miramas",
+                "score": 0.874500909090909,
+                "housenumber": "26",
+                "id": "13063_0100_00026",
+                "name": "26 Rue Barbier Jauffret",
+                "postcode": "13140",
+                "citycode": "13063",
+                "x": 861587.19,
+                "y": 6277537.95,
+                "city": "Miramas",
+                "context": "13, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur",
+                "type": "housenumber",
+                "importance": 0.61951,
+                "street": "Rue Barbier Jauffret"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.807071,
+                    47.667002
+                ]
+            },
+            "properties": {
+                "label": "26 Rue Barbier 90350 Évette-Salbert",
+                "score": 0.8648790909090909,
+                "housenumber": "26",
+                "id": "90042_0003_00026",
+                "name": "26 Rue Barbier",
+                "postcode": "90350",
+                "citycode": "90042",
+                "x": 985603.01,
+                "y": 6736510.24,
+                "city": "Évette-Salbert",
+                "context": "90, Territoire de Belfort, Bourgogne-Franche-Comté",
+                "type": "housenumber",
+                "importance": 0.51367,
+                "street": "Rue Barbier"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.557454,
+                    47.126368
+                ]
+            },
+            "properties": {
+                "label": "26 Rue Barbière 39700 Rochefort-sur-Nenon",
+                "score": 0.8553354545454546,
+                "housenumber": "26",
+                "id": "39462_0015_00026",
+                "name": "26 Rue Barbière",
+                "postcode": "39700",
+                "citycode": "39462",
+                "x": 893843.48,
+                "y": 6672706.15,
+                "city": "Rochefort-sur-Nenon",
+                "context": "39, Jura, Bourgogne-Franche-Comté",
+                "type": "housenumber",
+                "importance": 0.40869,
+                "street": "Rue Barbière"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.280552,
+                    49.894748
+                ]
+            },
+            "properties": {
+                "label": "Rue Barbier 80000 Amiens",
+                "score": 0.6911688111888112,
+                "id": "80021_0660",
+                "name": "Rue Barbier",
+                "postcode": "80000",
+                "citycode": "80021",
+                "x": 648264.45,
+                "y": 6977573.46,
+                "city": "Amiens",
+                "context": "80, Somme, Hauts-de-France",
+                "type": "street",
+                "importance": 0.67978
+            }
+        }
+    ],
+    "attribution": "BAN",
+    "licence": "ETALAB-2.0",
+    "query": "26 rue barbier",
+    "limit": 5
+}
